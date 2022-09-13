@@ -1,0 +1,37 @@
+a {
+    padding: 5px;
+    border: 2px darkmagenta solid;
+    text-decoration: none;
+    border-radius: 4px;}
+h1,h2{
+    text-align: center;
+    font-weight: bolder;}
+table{
+    border: 2px solid black;
+    margin: auto;}
+td{
+    text-align: center;
+    padding: 1rem;
+    border: 1px solid black;}
+thead{
+    background-color: black;
+    color: white;}
+tbody td:first-child{
+    background-color: aqua;}
+.card {
+   background-color: aqua;}
+.bg-color-red{
+    background-color: red;}
+.card__titulo{
+    font-size: 30px;}
+.ternera__contenido , .clasico__contenido, .verdura__contenido, .calabaza__contenido, .gourmet__contenido{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;}
+footer{
+        flex:1;
+        padding: 1rem;
+        margin:1px;
+        text-align: center;}
+
+    
